@@ -9,6 +9,11 @@ class Weather{
         const responceData = await responce.json()
         return responceData
     }
+
+
+    changeCity(city){
+        this.city = city
+    }
 }
 
 
